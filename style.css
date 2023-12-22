@@ -1,0 +1,56 @@
+:root{
+    --Darkcyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+    --Verydarkblue: hsl(212, 21%, 14%);
+    --Darkgrayishblue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+}
+img{
+    border-radius: 15px ;
+    height: 500px;
+}
+#head{
+    margin-top: 70px;
+    font-size: 2.5em;
+    font-weight: 500px;
+    color: var(--Darkcyan);
+    font-stretch: ultra-expanded;
+    display: inline;
+    
+}
+.rup p{
+    text-decoration: line-through;
+    display: inline;
+}
+.pre{
+    padding: 20px;
+    font-weight: 500px;
+}
+.pre h1{
+    color: var(--Verydarkblue);
+   
+    font-weight: 700px;
+    margin-bottom: 50px;
+}
+.cart{
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: var(--Darkcyan);
+     color: var(--White);
+}
+body{
+    background-color: var(--Cream);
+    color:var(--Darkgrayishblue);
+    font-size: 14px;
+    
+}
+.box{
+     background-color: var(--White);
+     border-radius: 20px;
+     display: flex;
+     margin: 100px auto;
+     padding: 0px;
+     width: 600px;
+    
+}
